@@ -1,10 +1,16 @@
+## [2.0.0] - 5th June 2021.
+
+- migrated to null safety
+
+- updated depencies
+
 ## [1.0.0] - 3rd April 2020.
 
 - Code refactors.
 
 - Added support for `CustomScrollView` with the addition of `InViewNotifierCustomScrollView`.
 
-- `InViewNotifierList`  now uses a `builder` function to build it's children. This is replaced with previously used `children` property.
+- `InViewNotifierList` now uses a `builder` function to build it's children. This is replaced with previously used `children` property.
 
 - Added `InViewNotifierWidget` which gets notified if it is currently inside the viewport condition
 
@@ -31,6 +37,7 @@ A Flutter package that builds a ListView and notifies when the widgets are on sc
 **Breaking**- Fixed the typo for the property name from `srollDirection` to `scrollDirection`.
 
 Before(v0.0.1):
+
 ```dart
 InViewNotifierList(
   srollDirection: Axis.vertical,
@@ -38,6 +45,7 @@ InViewNotifierList(
 ```
 
 After(v0.0.2):
+
 ```dart
 InViewNotifierList(
   scrollDirection: Axis.vertical,
