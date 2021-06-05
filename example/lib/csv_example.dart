@@ -20,7 +20,6 @@ class CSVExample extends StatelessWidget {
       fit: StackFit.expand,
       children: <Widget>[
         InViewNotifierCustomScrollView(
-          initialInViewIds: ['grid3', 'grid4', 'grid5'],
           isInViewPortCondition: condition,
           contextCacheCount: 35,
           controller: scrollController,
