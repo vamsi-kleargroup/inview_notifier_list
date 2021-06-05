@@ -17,7 +17,6 @@ A Flutter package that builds a [ListView](https://api.flutter.dev/flutter/widge
 - [Basic Usage](https://github.com/rvamsikrishna/inview_notifier_list#basic-usage)
 - [Types of Notifiers](https://github.com/rvamsikrishna/inview_notifier_list#types-of-notifiers)
 - [Properties](https://github.com/rvamsikrishna/inview_notifier_list#properties)
-- [Migration from v0.0.4 to v1.0.0](https://github.com/rvamsikrishna/inview_notifier_list#migration-from-v004-to-v100)
 - [Credits](https://github.com/rvamsikrishna/inview_notifier_list#credits)
 
 ## Use-cases
@@ -34,7 +33,7 @@ Just add the package to your dependencies in the `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  inview_notifier_list: ^1.0.0
+  inview_notifier_list: ^2.0.0
 ```
 
 ## Basic Usage
